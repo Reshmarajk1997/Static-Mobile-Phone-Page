@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+.top1{
+    display: flex;
+    color: white;
+    background-color: rgb(30, 28, 28);
+    height: 4rem;
+    margin-top: 0.1rem;
+}
+
+
+.logoText2{
+    margin-top: -0.8rem;
+}
+.textImg{
+    height: 1.5rem;
+}
+.dorpIconText{
+    display: inline-flex;
+}
+.navText{
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    
+}
+.login{
+    margin-right: 4.8rem;
+}
+.dropIcon{
+    margin-left: 0.6rem;
+    margin-top: 0.5rem;
+    height: 1rem;
+    mix-blend-mode: multiply;    
+}
+.navSearchBar{
+    flex: 1;
+    position: relative;
+}
+.searchBar{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-top: -9rem;
+}
+.searchImg {
+    border-start-end-radius: 5px;
+    position: absolute; 
+    height: 2.7rem;
+    width: 3.4rem;
+    top: -7px;
+    right: -7px;  
+}
+
+.subText{
+    display: flex;
+    margin-left: 2.6rem;
+    margin-top: 1.8rem;
+}
+
+.cards{
+    display: flex;
+    margin-right: 2.8rem;
+    margin-top: 2rem;
+}
+
+.card1{
+    border: 1px solid #a7aeae;
+    margin-left: 2.8rem;
+    width: 30%;
+    height: 25rem;
+    text-align: center;
+    position: relative;
+}
+.phoneImg{
+    height: 60%;
+}
+.greenBox{
+    position: absolute;
+    background-color: rgb(44, 160, 44);
+    border: 1px solid rgb(44, 160, 44);
+    height: 4.5rem;
+    width: 3.6rem;
+    /* text-align: center;  */
+}
+.greenBoxText {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.price{
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    color: orangered;
+    
+}
+.viewDetailsBox{
+    position: absolute;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 2.3rem;
+    border: 1px solid #a7aeae;
+    
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e3e3;
+    color: #6a626a;
+}
